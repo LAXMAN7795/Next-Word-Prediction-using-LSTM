@@ -1,35 +1,37 @@
-#Next Word Prediction using LSTM
-This project implements a next-word prediction model using Long Short-Term Memory (LSTM) neural networks in Python. The model is trained on a text dataset and predicts the next word given a sequence of words.
+Next Word Prediction using LSTM
+A deep learning project for predicting the next word in a sequence using LSTM neural networks.
+
+Overview
+This repository contains code for building and training an LSTM-based model to predict the next word given a sequence of words. The project demonstrates text preprocessing, sequence generation, model training, and prediction using Python and popular machine learning libraries.
 
 Features
-Preprocessing of text data
-Tokenization and sequence generation
-LSTM-based neural network for prediction
-Training and evaluation scripts
-Easy-to-use interface for making predictions
-Setup
-Clone the repository:
-
+Text data preprocessing and tokenization
+Sequence generation for training
+LSTM neural network implementation
+Model training and evaluation
+Easy-to-use prediction interface
+Getting Started
+1. Clone the repository
 
 git clone https://github.com/LAXMAN7795/Next-Word-Prediction-using-LSTM.gitcd Next-Word-Prediction-using-LSTM
-Create a Conda environment:
-
+2. Create and activate a Conda environment
 
 conda create -p ./venv python=3.11 -yconda activate ./venv
-Install dependencies:
-
+3. Install dependencies
 
 pip install -r requirements.txt
-Usage
-Run the main application:
-
+4. Run the application
 
 python app.py
-Modify app.py to change dataset or model parameters as needed.
-
 File Structure
 app.py — Main script for training and prediction
-requirements.txt — Python dependencies
+requirements.txt — List of required Python packages
 .gitignore — Excludes venv and other unnecessary files
+Customization
+Modify app.py to use your own dataset or adjust model parameters.
+Update requirements.txt as needed for additional dependencies.
 License
 This project is licensed under the MIT License.
+
+Author
+LAXMAN7795
