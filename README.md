@@ -1,4 +1,4 @@
-Next Word Prediction using LSTM
+##Next Word Prediction using LSTM
 This project implements a next-word prediction model using Long Short-Term Memory (LSTM) neural networks in Python. The model is trained on a text dataset and predicts the next word given a sequence of words.
 
 Features
